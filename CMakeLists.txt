@@ -35,6 +35,8 @@ target_include_directories(tinyfiledialogs_lib INTERFACE ${tinyfiledialogs_SOURC
 
 add_executable(spectra
     src/main.c
+    src/app.c
+    src/logger.c
 )
 
 target_link_libraries(spectra
